@@ -1,0 +1,4 @@
+[submodule "cv_utils"]
+	path = lib_cv_utils
+	url = git@github.com:lackdaz/cv_utils.git
+	branch = main
