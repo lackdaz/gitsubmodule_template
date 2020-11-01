@@ -1,13 +1,17 @@
-# gitsubmodule_template
-Checklist for gitsubmodules
+# The Ultimate Checklist for git submodules (GSM)
 
-To add gitsubmodule:
-1. `git submodule add -b <main> --name <name-of-gitsubmodule> <path-to-github-url> <path-to-directory>` 
+## Cloning a repository with GSM
+To clone the repository with the gitsubmodules:
+- `git clone --recursive [URL to Git repo]`
 
-e.g.
+To clone the GSM in (if you missed the previous command):
+- `git submodule update --init --recursive`
 
-```
-git submodule add -b main --name cv_utils git@github.com:lackdaz/cv_utils.git lib_cv_utils
-```
+To add GSM:
+- `git submodule add -b <main> --name <name-of-GSM> <path-to-github-url> <path-to-create-directory>`  
+e.g:  
+`git submodule add -b main --name cv_utils git@github.com:lackdaz/cv_utils.git lib_cv_utils`
 
-1. 
+To delete GSM:
+
+
