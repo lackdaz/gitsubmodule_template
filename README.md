@@ -32,3 +32,6 @@ to update the `.git/config` files.
 `rm -rf <path_to_submodule>`  
 `git add . && commit -m <removed_x_submodule>`
 
+### References
+---
+1. [https://www.atlassian.com/git/articles/core-concept-workflows-and-tips](https://www.atlassian.com/git/articles/core-concept-workflows-and-tips)
